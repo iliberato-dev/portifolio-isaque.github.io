@@ -7,15 +7,15 @@
 
 .s-wrapper {
   display: flex;
-  height: 100vh;
+  height: 100vh !important;
   flex-flow: row nowrap; 
-  background-color: aqua; 
+  background-color: black;
 }
 
 .s-wrapper video{
   position: fixed;
   width: 100%;
-
+  height: 100vh;
 }
 
 .s-wrapper .s-left-column {

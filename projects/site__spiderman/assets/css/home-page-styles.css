@@ -185,3 +185,11 @@ body[id^="spider-man-"] .s-card:not(.s-card--hovered) {
   transform-style: preserve-3d;
   transition: transform 0.4s ease-in;
 }
+
+@media (max-width: 760px) {
+  .s-card {
+    width: 370%;
+    height: 70vh;
+
+  }
+}
